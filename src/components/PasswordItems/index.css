@@ -1,0 +1,140 @@
+.each-user-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+  border: 1px solid #9ba9eb;
+  border-radius: 4px;
+  font-family: 'roboto';
+  width: 90%;
+  padding: 5px;
+  margin: 2px;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+}
+.app-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 10px;
+}
+.app-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.website-name {
+  font-size: 14px;
+  margin: 2px;
+}
+.user-name {
+  font-size: 12px;
+  margin: 2px;
+}
+.password {
+  font-size: 12px;
+  margin: 2px;
+}
+.stars {
+  margin: 2px;
+  width: 100px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.delete-image {
+  width: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding-left: 100px;
+  }
+  .app-logo {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .password-card {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  .add-password-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55%;
+  }
+  .small-image {
+    display: none;
+  }
+  .image {
+    display: flex;
+    width: 400px;
+    transform: rotateY(150deg);
+  }
+  .heading {
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .search-container {
+    width: 30%;
+  }
+  .saved-password-card {
+    justify-content: flex-start;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 400px;
+  }
+  .each-user-details {
+    width: 30%;
+  }
+  .no-password {
+    width: 320px;
+  }
+  .your-password-heading {
+    font-size: 20px;
+  }
+  .passwords-count {
+    font-size: 12px;
+  }
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.orange {
+  background-color: orange;
+}
+.violet {
+  background-color: violet;
+}
+.yellow {
+  background-color: yellow;
+}
+.sky-blue {
+  background-color: skyblue;
+}
+.aqua {
+  background-color: aqua;
+}
